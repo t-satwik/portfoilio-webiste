@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Manrope:wght@700&display=swap');
+/* Common  */
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.dt-h1-bold {
+  /* desktop/h1/bold */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 120%;
+  /* or 62px */
+  letter-spacing: -0.0447em;
+}
+.dt-h1-normal {
+  /* desktop/h1/normal */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 114%;
+  /* or 59px */
+  letter-spacing: -0.0392em;
+}
+.dt-h2-normal {
+  /* desktop/h2/normal */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 114%;
+  /* or 43px */
+  letter-spacing: -0.0326em;
+}
+.dt-h3-bold {
+  /* desktop/h2/normal */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 114%;
+  /* identical to box height, or 32px */
+  letter-spacing: -0.0264em;
+}
+.dt-h3-normal {
+  /* desktop/h3/bold */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 120%;
+  /* identical to box height, or 34px */
+  letter-spacing: -0.0326em;
+}
+.dt-body-normal {
+  /* desktop/body/normal */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  /* identical to box height, or 24px */
+  letter-spacing: -0.0216em;
+}
+.dt-body-bold {
+  /* desktop/body/bold */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 140%;
+  /* identical to box height, or 24px */
+  letter-spacing: -0.0186em;
+}
+
+/* Button  */
+.btn-text {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 100%;
+  /* identical to box height, or 15px */
+}
+
+.btn-primary {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 28px 13px 26px;
+  gap: 8px;
+
+  width: 213px;
+  height: 52px;
+
+  /* Primary/500 */
+  background: #7a59fd;
+  border: transparent;
+  border-radius: 16px;
+}
+.btn-primary:hover {
+  background: #613ce3;
+  border: transparent;
+  border-radius: 16px;
+}
+
+.btn-navbar {
+  cursor: pointer;
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 28px;
+  gap: 8px;
+
+  /* Neutral/600 */
+
+  border: 2px solid #605d62;
+  border-radius: 16px;
+}
+.btn-navbar:hover {
+  border: 2px solid #967cff;
+  border-radius: 16px;
+}
+.btn-navbar-active {
+  cursor: pointer;
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 28px;
+  gap: 8px;
+  background: #7a59fd;
+  border: 2px solid #7a59fd;
+  border-radius: 16px;
+}
+.btn-navbar-active:hover {
+  border: 2px solid #97a6fd;
+  border-radius: 16px;
+}
+
+.btn-skill {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 8px;
+
+  border: 1px solid #605d62;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.btn-contact {
+  all: unset;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 8px;
+  /* desktop/h3/normal */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 114%;
+  /* identical to box height, or 32px */
+
+  letter-spacing: -0.0264em;
+  /* Primary/400 */
+  color: #794DFD;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  cursor: pointer;
+}
+.btn-contact:hover{
+  background: rgba(122, 89, 253, 0.12);
+  border-radius: 12px;
+}
